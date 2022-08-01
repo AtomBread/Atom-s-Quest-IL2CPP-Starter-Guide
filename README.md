@@ -74,7 +74,7 @@ but if you do this is how to run/ edit them
 ##### Changing the Current Hook
 
 To make a hook you must know the namespace, class name and the method to hook in within the class, **for example** GorillaLocomotion based games usally have the player script like this,
-(sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self)
+**(sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self)**
 to use this, replace the highlighted part with it
 
 
