@@ -73,6 +73,6 @@ but if you do this is how to run/ edit them
 
 ##### Changing the Current Hook
 
-To make a hook you must know the namespace, class name and the method to hook in within the class, **for example** GorillaLocomotion based games usally have the player script like this, (sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self) if its for that type of game leave it
+To make a hook you must know the namespace, class name and the method to hook in within the class, **for example** GTAG Locomotion based games usally have the player script like this, (sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self) if its for that type of game leave it
 ![](https://i.imgur.com/y4ocskb.png)
 
