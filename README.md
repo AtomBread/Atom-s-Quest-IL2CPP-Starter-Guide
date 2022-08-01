@@ -12,6 +12,9 @@ How to start making mods for the Quest or Quest 2
 5. A Pc with a Cable-C port
 6. Bread
 
-#### Let's Begin
+### Let's Begin
+#### Basic Understanding of IL2CPP
+
+IL2CPP converts IL ( Intermediate Language, what c# compiles too ) to CPP ( C++ ) 
 
 
