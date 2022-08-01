@@ -26,6 +26,6 @@ When your interfering with Unity's Engine every GameObject, Class, Component, Ob
 
 An instance of any object is delcared a **Il2CppObject**, if we have a **Il2CppObject** we can change an value in it.
 **For example** if our game we're cheating on is GorillaLocomotion based game ( Bird Runners, Monkey Mischief ) then we could ( for example ) make our selfs zero gravity or make us super fast/powerful.
-We could make ourselfs fast with **il2cpp_utils::SetFieldValue(self, "maxJumpSpeed", 100.0f)**, which uses a provided **Il2CppObject**, which we can do by making a hook.
+We could make ourselfs fast with **il2cpp_utils::SetFieldValue(self, "maxJumpSpeed", 100.0f)**, which uses a provided **Il2CppObject**, which we can get by making a hook.
 
-####
+#### Hooks?
