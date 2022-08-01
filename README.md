@@ -29,3 +29,9 @@ An instance of any object is delcared a **Il2CppObject**, if we have a **Il2CppO
 We could make ourselfs fast with **il2cpp_utils::SetFieldValue(self, "maxJumpSpeed", 100.0f)**, which uses a provided **Il2CppObject**, which we can get by making a hook.
 
 #### Hooks?
+
+Hooks are pieces of code which latch onto the Game Engine ( Unity ) and let us interfere with shit. if you hook find a instance ( lets say GorillaLocomotion.Player ) the code will wait untill a Component is added to the game ( Player is spawned ) and then it hooks/ latches on to the Player giving us a **Il2CppObject** which would probably be our player. **Then we could start to mess around**
+
+#### How do i accualy do all this?
+
+
