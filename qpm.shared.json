@@ -3,18 +3,18 @@
     "sharedDir": "shared",
     "dependenciesDir": "extern",
     "info": {
-      "name": "BreadTest",
-      "id": "breadtest",
+      "name": "EpicMod",
+      "id": "EpicMod",
       "version": "0.1.0",
       "url": null,
       "additionalData": {
-        "overrideSoName": "libbreadtest.so"
+        "overrideSoName": "libmod.so"
       }
     },
     "dependencies": [
       {
         "id": "beatsaber-hook",
-        "versionRange": "=2.3.2",
+        "versionRange": "^3.8.0",
         "additionalData": {
           "extraFiles": [
             "src/inline-hook"
@@ -49,30 +49,6 @@
     },
     {
       "dependency": {
-        "id": "beatsaber-hook",
-        "versionRange": "=2.3.2",
-        "additionalData": {
-          "soLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v2.3.2/libbeatsaber-hook_2_3_2.so.so",
-          "debugSoLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v2.3.2/debug_libbeatsaber-hook_2_3_2.so",
-          "branchName": "version-v2.3.2"
-        }
-      },
-      "version": "2.3.2"
-    },
-    {
-      "dependency": {
-        "id": "codegen",
-        "versionRange": "^0.2",
-        "additionalData": {
-          "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.14.0/libcodegen.so",
-          "overrideSoName": "libcodegen.so",
-          "branchName": "version-v0.14.0"
-        }
-      },
-      "version": "0.14.0"
-    },
-    {
-      "dependency": {
         "id": "libil2cpp",
         "versionRange": "^0.2.3",
         "additionalData": {
@@ -80,6 +56,31 @@
         }
       },
       "version": "0.2.3"
+    },
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "^3.8.0",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v3.10.0/libbeatsaber-hook_3_10_0.so",
+          "debugSoLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v3.10.0/debug_libbeatsaber-hook_3_10_0.so",
+          "branchName": "version-v3.10.0"
+        }
+      },
+      "version": "3.10.0"
+    },
+    {
+      "dependency": {
+        "id": "codegen",
+        "versionRange": "^0.2",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.25.0/libcodegen.so",
+          "overrideSoName": "libcodegen.so",
+          "modLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.25.0/Codegen.qmod",
+          "branchName": "version-v0.25.0"
+        }
+      },
+      "version": "0.25.0"
     }
   ]
 }
