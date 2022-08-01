@@ -11,6 +11,7 @@ How to start making mods for the Quest or Quest 2
 4. A link cable ( can be the one that came with quest )
 5. A Pc with a Cable-C port
 6. Visual Studio Code
+7. Unity Installed With Android Support ( for NDK )
 7. Bread
 
 ### Let's Begin
@@ -35,4 +36,28 @@ Hooks are pieces of code which latch onto the Game Engine ( Unity ) and let us i
 
 #### How do i accualy do all this?
 
-The first thing to do is set up a new Beat Saber Hook Project which you can do by following this guide 
+The first thing to do is set up a new Beat Saber Hook Project which you can do is 
+
+1. Get qpm-rust
+2. Get CMake
+3. Clone this repository
+4. Open the folder with this repository
+5. Open powershell
+6. Do "cd THE_DIRECTORY_OF_THE_FOLDER"
+7. Do qpm restore
+8. Eat Bread
+9. Open "ndkpath.txt" in the repo folder
+10. Goto the installation of your unity
+11. Open the folders Editor/Data/PlayBackEngines/AndroidPlayer/NDK
+12. Click on the bit at the top of file explorer that says This PC
+13. Highlight it then copy it
+14. Paste it into the txt you opened called "NDKPath"
+15. Save The txt
+16. Open Visual Studio Code
+17. Click File in top left
+18. Click Open Folder
+19. Goto the repos folder
+20. Open it
+21. Open the sub folder "src" in Visual Studio Code
+22. Open main.cpp
+23. Get ready to code!
