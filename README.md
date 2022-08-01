@@ -10,7 +10,8 @@ How to start making mods for the Quest or Quest 2
 3. Around 10 minutes of your time reading
 4. A link cable ( can be the one that came with quest )
 5. A Pc with a Cable-C port
-6. Bread
+6. Visual Studio Code
+7. Bread
 
 ### Let's Begin
 #### Basic Understanding of IL2CPP
@@ -26,7 +27,7 @@ When your interfering with Unity's Engine every GameObject, Class, Component, Ob
 
 An instance of any object is delcared a **Il2CppObject**, if we have a **Il2CppObject** we can change an value in it.
 **For example** if our game we're cheating on is GorillaLocomotion based game ( Bird Runners, Monkey Mischief ) then we could ( for example ) make our selfs zero gravity or make us super fast/powerful.
-We could make ourselfs fast with **il2cpp_utils::SetFieldValue(self, "maxJumpSpeed", 100.0f)**, which uses a provided **Il2CppObject**, which we can get by making a hook.
+We could make ourselfs fast with **il2cpp_utils::SetFieldValue(self, "maxJumpSpeed", 100.0f)**, which changes a property of our player ( maxJumpSpeed ), which uses a provided **Il2CppObject**, which we can get by making a hook.
 
 #### Hooks?
 
@@ -34,4 +35,4 @@ Hooks are pieces of code which latch onto the Game Engine ( Unity ) and let us i
 
 #### How do i accualy do all this?
 
-
+The first thing to do is set up a new Beat Saber Hook Project which you can do by following this guide 
