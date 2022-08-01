@@ -1,0 +1,19 @@
+{
+  "_QPVersion": "0.1.1",
+  "name": "GtagMovementHack",
+  "id": "sussybaka",
+  "author": "AtomBread",
+  "version": "1.0.1",
+  "packageId": "com.DefaultCompany.BirdRunnersVR",
+  "packageVersion": "1.4",
+  "description": "Bread Bread",
+  "dependencies": [],
+  "modFiles": [
+    "libbreadtest.so"
+  ],
+  "libraryFiles": [
+    "libbeatsaber-hook_2_3_2.so"
+  ],
+  "fileCopies": [],
+  "copyExtensions": []
+}

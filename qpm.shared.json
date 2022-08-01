@@ -1,0 +1,85 @@
+{
+  "config": {
+    "sharedDir": "shared",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "BreadTest",
+      "id": "breadtest",
+      "version": "0.1.0",
+      "url": null,
+      "additionalData": {
+        "overrideSoName": "libbreadtest.so"
+      }
+    },
+    "dependencies": [
+      {
+        "id": "beatsaber-hook",
+        "versionRange": "=2.3.2",
+        "additionalData": {
+          "extraFiles": [
+            "src/inline-hook"
+          ]
+        }
+      },
+      {
+        "id": "modloader",
+        "versionRange": "=1.2.3",
+        "additionalData": {}
+      },
+      {
+        "id": "codegen",
+        "versionRange": "^0.2",
+        "additionalData": {}
+      }
+    ],
+    "additionalData": {}
+  },
+  "restoredDependencies": [
+    {
+      "dependency": {
+        "id": "modloader",
+        "versionRange": "=1.2.3",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/QuestLoader/releases/download/v1.2.3/libmodloader64.so",
+          "overrideSoName": "libmodloader.so",
+          "branchName": "version-v1.2.3"
+        }
+      },
+      "version": "1.2.3"
+    },
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "=2.3.2",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v2.3.2/libbeatsaber-hook_2_3_2.so.so",
+          "debugSoLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v2.3.2/debug_libbeatsaber-hook_2_3_2.so",
+          "branchName": "version-v2.3.2"
+        }
+      },
+      "version": "2.3.2"
+    },
+    {
+      "dependency": {
+        "id": "codegen",
+        "versionRange": "^0.2",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.14.0/libcodegen.so",
+          "overrideSoName": "libcodegen.so",
+          "branchName": "version-v0.14.0"
+        }
+      },
+      "version": "0.14.0"
+    },
+    {
+      "dependency": {
+        "id": "libil2cpp",
+        "versionRange": "^0.2.3",
+        "additionalData": {
+          "headersOnly": true
+        }
+      },
+      "version": "0.2.3"
+    }
+  ]
+}
