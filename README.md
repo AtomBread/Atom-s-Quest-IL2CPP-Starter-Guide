@@ -76,3 +76,13 @@ but if you do this is how to run/ edit them
 To make a hook you must know the namespace, class name and the method to hook in within the class, **for example** GTAG Locomotion based games usally have the player script like this, (sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self) if its for that, leave it
 ![](https://i.imgur.com/y4ocskb.png)
 
+### Running and changing stuff
+
+1. To run a method write this, il2cpp_utils::RunMethod(self, "METHODNAME");
+2. To change a value write this, il2cpp_utils::SetFieldValue(self, "FIELDNAME", THEVALUE);
+3. To read a value write this, il2cpp_utils::GetFieldValue(self, "FIELDNAME");
+
+**Some example code (sets a GTAG locomotion player to zero gravity)**
+
+![](https://i.imgur.com/MCTtFzK.png)
+
