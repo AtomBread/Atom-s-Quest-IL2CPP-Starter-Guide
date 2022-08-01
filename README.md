@@ -5,8 +5,11 @@ How to start making mods for the Quest or Quest 2
 
 #### What you will need
 
-1. somewhat knowledge of C++
-2. a sideload ready PC/Quest
-3. around 10 minutes of your time reading
+1. Somewhat knowledge of C++
+2. A sideload ready PC/Quest
+3. Around 10 minutes of your time reading
+4. A link cable ( can be the one that came with quest )
+5. A Pc with a Cable-C port
+6. Bread
 
 
