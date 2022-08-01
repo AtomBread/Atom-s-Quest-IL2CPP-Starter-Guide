@@ -97,5 +97,5 @@ https://github.com/djkaty/Il2CppInspector <br>
 https://github.com/knah/Il2CppAssemblyUnhollower <br>
 https://il2cppdumper.com/ <br>
 
-*bye bye *
+*bye bye*
 
