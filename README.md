@@ -15,6 +15,7 @@ How to start making mods for the Quest or Quest 2
 ### Let's Begin
 #### Basic Understanding of IL2CPP
 
-IL2CPP converts IL ( Intermediate Language, what c# compiles too ) to CPP ( C++ ) 
+IL2CPP converts IL ( Intermediate Language, what c# compiles too ) to CPP ( C++ )
+most developers do this as they think it will make their game run faster and also have protection against cheaters/hackers, this is sometimes right, but most of the time its usless
 
 
