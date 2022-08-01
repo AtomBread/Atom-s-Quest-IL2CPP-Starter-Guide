@@ -47,6 +47,7 @@ The first thing to do is set up a new Beat Saber Hook Project which you can do i
 5. Open powershell
 6. Do "cd THE_DIRECTORY_OF_THE_FOLDER"
 7. Do qpm restore
+8. Do pip install ninja
 8. Eat Bread
 9. Open "ndkpath.txt" in the repo folder
 10. Goto the installation of your unity
