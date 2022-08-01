@@ -86,3 +86,16 @@ To make a hook you must know the namespace, class name and the method to hook in
 
 ![](https://i.imgur.com/MCTtFzK.png)
 
+That code is included within the repos main.cpp.
+
+## This was the basics and getting started with IL2CPP hacking on Quest, I cant help yous any further, but i can link some docs that might help yous
+
+https://github.com/danrouse/beatsaber-quest-modding-guide#oculus-quest-setup
+https://github.com/Lauriethefish/quest-mod-template
+https://docs.unity3d.com/2020.1/Documentation/Manual/IL2CPP.html
+https://github.com/djkaty/Il2CppInspector
+https://github.com/knah/Il2CppAssemblyUnhollower
+https://il2cppdumper.com/
+
+
+
