@@ -36,9 +36,11 @@ Hooks are pieces of code which latch onto the Game Engine ( Unity ) and let us i
 
 #### How do i accualy do all this?
 
+https://github.com/ninja-build/ninja
+
 The first thing to do is set up a new Beat Saber Hook Project which you can do is 
 
-1. Get qpm-rust
+1. Get qpm-rust and ninja
 2. Get CMake
 3. Clone this repository
 4. Open the folder with this repository
