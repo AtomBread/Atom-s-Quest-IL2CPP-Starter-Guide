@@ -61,3 +61,20 @@ The first thing to do is set up a new Beat Saber Hook Project which you can do i
 21. Open the sub folder "src" in Visual Studio Code
 22. Open main.cpp
 23. Get ready to code!
+
+#### Starting To Code The Mod
+
+Now that we somewhat know how IL2CPP works lets begin the mayhem!
+
+##### Finding Methods, Fields, Values to change
+
+You could use **IL2CPPInspecter, IL2CPPDumper and IL2CPPUnHollower** if you dont know any fields or methods
+but if you do this is how to run/ edit them
+
+##### Changing the Current Hook
+
+To make a hook you must know the namespace, class name and the method to hook in within the class, **for example** GorillaLocomotion based games usally have the player script like this,
+(sus, "GorillaLocomotion", "Player", "Awake", void, Il2CppObject* self)
+to use this, replace the highlighted part with it
+
+
